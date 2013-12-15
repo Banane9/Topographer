@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Topographer.PNG
+namespace Topographer.Png
 {
     //Like a MemoryStream, except at any point the data in it can be returned
     //and the stream emptied. No idea what to actually call it.

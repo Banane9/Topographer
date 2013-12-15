@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Topographer.PNG
+namespace Topographer.Png
 {
     //http://www.libpng.org/pub/png/spec/1.2/PNG-CRCAppendix.html
     public class CRC32

@@ -6,7 +6,7 @@ using System.Text;
 using Ionic.Zlib;
 using System.Runtime.InteropServices;
 
-namespace Topographer.PNG
+namespace Topographer.Png
 {
     public class PngWriter : IDisposable
     {
