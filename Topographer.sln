@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopographerUI", "TopographerUI\TopographerUI.csproj", "{AFBA495F-D604-48BA-84C6-294AFF7A8C63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topographer", "Topographer\Topographer.csproj", "{15541DFB-773B-478A-BE05-FC23F7055BC4}"
@@ -15,6 +17,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopographerCMD", "TopographerCMD\TopographerCMD.csproj", "{58BA0482-C575-4878-B186-2870AC4C4C5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{508B9FC2-2C64-4848-8FA8-DC74FCC7B5AC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{2AE039B8-2B12-4F3C-9E99-A8D413C390F2}"
+	ProjectSection(SolutionItems) = preProject
+		Minecraft\Ionic.Zlib.dll = Minecraft\Ionic.Zlib.dll
+		Minecraft\Ionic.Zlib.pdb = Minecraft\Ionic.Zlib.pdb
+		Minecraft\Ionic.Zlib.XML = Minecraft\Ionic.Zlib.XML
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
