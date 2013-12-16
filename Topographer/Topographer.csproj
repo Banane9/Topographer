@@ -39,9 +39,17 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ColorPalette.cs" />
+    <Compile Include="Config\Biome.cs" />
+    <Compile Include="Config\BiomeInfo.cs" />
+    <Compile Include="Config\Block.cs" />
+    <Compile Include="Config\BlockInfo.cs" />
+    <Compile Include="Config\ColorPalette.cs">
+      <DependentUpon>ColorPalette.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Png\CRC32.cs" />
     <Compile Include="Png\DataStream.cs" />
     <Compile Include="Png\PngWriter.cs" />
@@ -55,12 +63,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Biomes.txt">
+    <Content Include="Config\ColorPalette.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Blocks.txt">
+    <Content Include="Config\VanillaBiomes.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Config\VanillaBlocks.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\ColorPalette.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

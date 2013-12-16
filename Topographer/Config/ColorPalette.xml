@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ColorPalette>
+  <Biomes>
+    <Biome Name="Ocean" Id="0" Color="0000ff" FoliageColor="375c1e"/>
+    <Biome Name="Plains" Id="1" Color="98FB98" FoliageColor="3a5e09"/>
+    <Biome Name="Desert" Id="2" Color="dea964" FoliageColor="615906"/>
+    <Biome Name="Extreme Hills" Id="3" Color="005200" FoliageColor="345933"/>
+    <Biome Name="Forest" Id="4" Color="008000" FoliageColor="27610b"/>
+    <Biome Name="Taiga" Id="5" Color="22bf8b" FoliageColor="2d583a"/>
+    <Biome Name="Swamp" Id="6" Color="3f522e" FoliageColor="1c2c10" WaterColor="665e86b4"/>
+    <Biome Name="River" Id="7" Color="6495ed" FoliageColor="375c1e"/>
+    <Biome Name="Hell" Id="8" Color="b22222" FoliageColor="615906"/>
+    <Biome Name="Sky" Id="9" Color="808080" FoliageColor="345933"/>
+    <Biome Name="Frozen Ocean" Id="10" Color="00bfff" FoliageColor="2d583a"/>
+    <Biome Name="Frozen River" Id="11" Color="87cefa" FoliageColor="2d583a"/>
+    <Biome Name="Ice Plains" Id="12" Color="ffffff" FoliageColor="2d583a"/>
+    <Biome Name="Ice Mountains" Id="13" Color="d3d3d3" FoliageColor="2d583a"/>
+    <Biome Name="Mushroom Island" Id="14" Color="ac83c7" FoliageColor="375c1e"/>
+    <Biome Name="Mushroom Island Shore" Id="15" Color="9f63c7" FoliageColor="375c1e"/>
+    <Biome Name="Beach" Id="16" Color="f5f5dc" FoliageColor="375c1e"/>
+    <Biome Name="Desert Hills" Id="17" Color="dec19b" FoliageColor="615906"/>
+    <Biome Name="Taiga Hills" Id="19" Color="65c9a8" FoliageColor="2d583a"/>
+    <Biome Name="Extreme Hills Edge" Id="20" Color="006400" FoliageColor="345933"/>
+    <Biome Name="Jungle" Id="21" Color="32cd32" FoliageColor="066a00"/>
+    <Biome Name="Jungle Hills" Id="22" Color="67cd67" FoliageColor="066a00"/>
+  </Biomes>
+  <Blocks>
+    <Block Name="Air" Id="0" Color="00000000"/>
+    <Block Name="Stone" Id="1" Color="7e7e7e"/>
+    <Block Name="Grass" Id="2" Color="62844c" AddFoliageColor="true"/>
+    <!-- Change base color from ocean to gray for foliage -->
+    <Block Name="Dirt" Id="3" Color="866043"/>
+    <Block Name="Cobblestone" Id="4" Color="7c7c7c"/>
+    <Block Name="Oak Planks" Id="5" Color="a08250"/>
+    <Block Name="Pine Planks" Id="5:1" Color="765834"/>
+    <Block Name="Birch Planks" Id="5:2" Color="765834"/>
+    <Block Name="Jungle Planks" Id="5:3" Color="a97b58"/>
+    <Block Name="Any Sapling" Id="6" Color="408f2f"/>
+    <Block Name="Bedrock" Id="7" Color="323232"/>
+    <!-- Watercolor gets overridden by biome watercolor -->
+    <Block Name="Water Source" Id="8" Color="665e86ff"/>
+    <Block Name="Water Still" Id="9" Color="665e86ff"/>
+    <Block Name="Lava Source" Id="10" Color="f74700"/>
+    <Block Name="Lava Still" Id="11" Color="f74700"/>
+    <Block Name="Sand" Id="12" Color="dbd3a0"/>
+    <Block Name="Gravel" Id="13" Color="857d7d"/>
+    <Block Name="Gold Ore" Id="14" Color="928e7d"/>
+    <Block Name="Iron Ore" Id="15" Color="89837f"/>
+    <Block Name="Coal Ore" Id="16" Color="727272"/>
+    <Block Name="Any Log" Id="17" Color="755829"/>
+    <Block Name="Oak Leaves" Id="18" Color="375c1e" AddFoliageColor="true"/>
+    <Block Name="Pine Leaves" Id="18:1" Color="2d472d" AddFoliageColor="true"/>
+    <Block Name="Birch Leaves" Id="18:2" Color="074b36" AddFoliageColor="true"/>
+    <Block Name="Jungle Leaves" Id="18:3" Color="1c6f02" AddFoliageColor="true"/>
+    <Block Name="Sponge" Id="19" Color="b5b538"/>
+    <Block Name="Glass" Id="20" Color="88ffffff"/>
+    <Block Name="Lapis Lazuli Ore" Id="21" Color="636f88"/>
+    <Block Name="Lapis Lazuli Block" Id="22" Color="1d46a6"/>
+    <Block Name="Dispenser" Id="23" Color="676767"/>
+    <Block Name="Sandstone" Id="24" Color="dad29f"/>
+    <Block Name="Noteblock" Id="25" Color="6c4734"/>
+    <Block Name="Bed" Id="26" Color="8f0c13"/>
+    <Block Name="Booster Track" Id="27" Color="c9b26b"/>
+    <Block Name="Detector Track" Id="28" Color="877c6a"/>
+    <Block Name="Sticky Piston Base" Id="29" Color="676767"/>
+    <Block Name="Sticky Piston Base Up" Id="29:1" Color="8d9462"/>
+    <Block Name="Cobweb" Id="30" Color="dcdcdcdc"/>
+    <Block Name="Tall Grass" Id="31" Color="62844c" AddFoliageColor="true"/>
+    <!-- Change base color from ocean to gray for foliage -->
+    <Block Name="Dead Bush" Id="32" Color="946428"/>
+    <Block Name="Piston Base" Id="33" Color="676767"/>
+    <Block Name="Piston Base Up" Id="33:1" Color="a08250"/>
+    <Block Name="Piston Extension" Id="34" Color="a08250"/>
+    <Block Name="Sticky Piston Extension Up" Id="34:9" Color="8d9462"/>
+    <Block Name="Wool" Id="35" Color="dfdfdf"/>
+    <Block Name="Orange Wool" Id="35:1" Color="ea8037"/>
+    <Block Name="Magenta Wool" Id="35:2" Color="bf4cc9"/>
+    <Block Name="Light Blue Wool" Id="35:3" Color="688bd4"/>
+    <Block Name="Yellow Wool" Id="35:4" Color="c2b51c"/>
+    <Block Name="Lime Green Wool" Id="35:5" Color="3bbd30"/>
+    <Block Name="Pink Wool" Id="35:6" Color="d9849b"/>
+    <Block Name="Dark Gray Wool" Id="35:7" Color="434343"/>
+    <Block Name="Light Gray Wool" Id="35:8" Color="9ea6a6"/>
+    <Block Name="Cyan Wool" Id="35:9" Color="277596"/>
+    <Block Name="Purple Wool" Id="35:10" Color="8136c4"/>
+    <Block Name="Blue Wool" Id="35:11" Color="27339a"/>
+    <Block Name="Brown Wool" Id="35:12" Color="56331c"/>
+    <Block Name="Green Wool" Id="35:13" Color="384d18"/>
+    <Block Name="Red Wool" Id="35:14" Color="a42d29"/>
+    <Block Name="Black Wool" Id="35:15" Color="1b1717"/>
+    <Block Name="Yellow Flower" Id="37" Color="dcf1f902"/>
+    <Block Name="Red Flower" Id="38" Color="dcf7070f"/>
+    <Block Name="Brown Mushroom" Id="39" Color="dc8d6a53"/>
+    <Block Name="Red Mushroom" Id="40" Color="dcb72725"/>
+    <Block Name="Gold Block" Id="41" Color="fbf152"/>
+    <Block Name="Iron Block" Id="42" Color="e0e0e0"/>
+    <Block Name="Stone Slabs" Id="43" Color="a3a3a3"/>
+    <Block Name="Sandstone Slabs" Id="43:1" Color="dad29f"/>
+    <Block Name="Wood Slabs" Id="43:2" Color="a08250"/>
+    <Block Name="Cobble Slabs" Id="43:3" Color="7c7c7c"/>
+    <Block Name="Brick Slabs" Id="43:4" Color="916052"/>
+    <Block Name="Stone Brick Slabs" Id="43:5" Color="7d7d7d"/>
+    <Block Name="Stone Slab" Id="44" Color="a3a3a3"/>
+    <Block Name="Sandstone Slab" Id="44:1" Color="dad29f"/>
+    <Block Name="Wood Slab" Id="44:2" Color="a08250"/>
+    <Block Name="Cobble Slab" Id="44:3" Color="7c7c7c"/>
+    <Block Name="Brick Slab" Id="44:4" Color="916052"/>
+    <Block Name="Stone Brick Slab" Id="44:5" Color="7d7d7d"/>
+    <Block Name="Brick" Id="45" Color="916052"/>
+    <Block Name="TNT" Id="46" Color="c13c17"/>
+    <Block Name="Wooden Door" Id="47" Color="a08250"/>
+    <Block Name="Mossy Cobblestone" Id="48" Color="697b69"/>
+    <Block Name="Obsidian" Id="49" Color="241351"/>
+    <Block Name="Torch" Id="50" Color="88fff032"/>
+    <Block Name="Fire" Id="51" Color="fc7800"/>
+    <Block Name="Mob Spawner" Id="52" Color="375063"/>
+    <Block Name="Wood Stairs" Id="53" Color="a08250"/>
+    <Block Name="Chest" Id="54" Color="8e6525"/>
+    <Block Name="Redstone Wire (Power: 0)" Id="55" Color="500000"/>
+    <Block Name="Redstone Wire (Power: 1)" Id="55:1" Color="5a0000"/>
+    <Block Name="Redstone Wire (Power: 2)" Id="55:2" Color="640000"/>
+    <Block Name="Redstone Wire (Power: 3)" Id="55:3" Color="6e0000"/>
+    <Block Name="Redstone Wire (Power: 4)" Id="55:4" Color="780000"/>
+    <Block Name="Redstone Wire (Power: 5)" Id="55:5" Color="820000"/>
+    <Block Name="Redstone Wire (Power: 6)" Id="55:6" Color="8c0000"/>
+    <Block Name="Redstone Wire (Power: 7)" Id="55:7" Color="960000"/>
+    <Block Name="Redstone Wire (Power: 8)" Id="55:8" Color="a00000"/>
+    <Block Name="Redstone Wire (Power: 9)" Id="55:9" Color="aa0000"/>
+    <Block Name="Redstone Wire (Power: 10)" Id="55:10" Color="b40000"/>
+    <Block Name="Redstone Wire (Power: 11)" Id="55:11" Color="be0000"/>
+    <Block Name="Redstone Wire (Power: 12)" Id="55:12" Color="c80000"/>
+    <Block Name="Redstone Wire (Power: 13)" Id="55:13" Color="d20000"/>
+    <Block Name="Redstone Wire (Power: 14)" Id="55:14" Color="dc0000"/>
+    <Block Name="Redstone Wire (Power: 15)" Id="55:15" Color="e60000"/>
+    <Block Name="Diamond Ore" Id="56" Color="828f92"/>
+    <Block Name="Diamond Block" Id="57" Color="67dfda"/>
+    <Block Name="Crafting Table" Id="58" Color="764e2f"/>
+    <Block Name="Wheat" Id="59" Color="917b0e"/>
+    <Block Name="Farmland" Id="60" Color="724b2d"/>
+    <Block Name="Furnace Off" Id="61" Color="676767"/>
+    <Block Name="Furnace On" Id="62" Color="676767"/>
+    <Block Name="Sign" Id="63" Color="77a08250"/>
+    <Block Name="Bookshelf" Id="64" Color="a08250"/>
+    <Block Name="Ladder" Id="65" Color="20a09250"/>
+    <Block Name="Track" Id="66" Color="877c6a"/>
+    <Block Name="Cobble Stairs" Id="67" Color="7c7c7c"/>
+    <Block Name="Sign" Id="68" Color="77a08250"/>
+    <Block Name="Lever" Id="69" Color="447e7e7e"/>
+    <Block Name="Stone Pressure Plate" Id="70" Color="7e7e7e"/>
+    <Block Name="Iron Door" Id="71" Color="e0e0e0e0"/>
+    <Block Name="Wooden Pressure Plate" Id="72" Color="a08250"/>
+    <Block Name="Redstone Ore Inactive" Id="73" Color="866969"/>
+    <Block Name="Redstone Ore Active" Id="74" Color="966969"/>
+    <Block Name="Redstone Torch Off" Id="75" Color="88824839"/>
+    <Block Name="Redstone Torch On" Id="76" Color="88dc2d14"/>
+    <Block Name="Button" Id="77" Color="447e7e7e"/>
+    <Block Name="Snow Layer" Id="78" Color="f1fcfc"/>
+    <Block Name="Ice" Id="79" Color="d77eaeff"/>
+    <Block Name="Snow Block" Id="80" Color="f1fcfc"/>
+    <Block Name="Cactus" Id="81" Color="0b5715"/>
+    <Block Name="Clay" Id="82" Color="9fa4b1"/>
+    <Block Name="Sugar Canes" Id="83" Color="a0e080"/>
+    <Block Name="Jukebox" Id="84" Color="734d39"/>
+    <Block Name="Fence" Id="85" Color="a08250"/>
+    <Block Name="Pumpkin" Id="86" Color="c27816"/>
+    <Block Name="Netherrack" Id="87" Color="983936"/>
+    <Block Name="Soulsand" Id="88" Color="543f33"/>
+    <Block Name="Glowstone" Id="89" Color="edd118"/>
+    <Block Name="Nether Portal" Id="90" Color="562d88"/>
+    <Block Name="Jack o'Lantern" Id="91" Color="c37916"/>
+    <Block Name="Cake" Id="92" Color="e6b6b7"/>
+    <Block Name="Repeater Off" Id="93" Color="996d6d"/>
+    <Block Name="Repeater On" Id="94" Color="ff6363"/>
+    <Block Name="Trapdoor" Id="96" Color="a08250"/>
+    <Block Name="Stone Brick" Id="98" Color="7d7d7d"/>
+    <Block Name="Huge Brown Mushroom" Id="99" Color="8d6a53"/>
+    <Block Name="Huge Red Mushroom" Id="100" Color="b72725"/>
+    <Block Name="Iron Bars" Id="101" Color="e0e0e0e0"/>
+    <Block Name="Glass Pane" Id="102" Color="88ffffff"/>
+    <Block Name="Melon" Id="103" Color="969925"/>
+    <Block Name="Pumpkin Stem" Id="104" Color="3380b654"/>
+    <Block Name="Melon Stem" Id="105" Color="3380b654"/>
+    <Block Name="Vines" Id="106" Color="203b9314"/>
+    <Block Name="Fence Gate" Id="107" Color="a08250"/>
+    <Block Name="Brick Stairs" Id="108" Color="916052"/>
+    <Block Name="Stone Brick Stairs" Id="109" Color="7d7d7d"/>
+    <Block Name="Mycelium" Id="110" Color="676469"/>
+    <Block Name="Lily Pad" Id="111" Color="13621c"/>
+    <Block Name="Nether Brick" Id="112" Color="2d171b"/>
+    <Block Name="Nether Brick Fence" Id="113" Color="2d171b"/>
+    <Block Name="Nether Brick Stairs" Id="114" Color="2d171b"/>
+    <Block Name="Nether Wart" Id="115" Color="81080a"/>
+    <Block Name="Enchantment Table" Id="116" Color="822846"/>
+    <Block Name="Brewing Stand" Id="117" Color="a0a063"/>
+    <Block Name="Cauldron" Id="118" Color="424242"/>
+    <Block Name="End Portal" Id="119" Color="142139"/>
+    <Block Name="End Portal Frame" Id="120" Color="647c65"/>
+    <Block Name="End Stone" Id="121" Color="dddfa5"/>
+    <Block Name="Dragon Egg" Id="122" Color="281132"/>
+    <Block Name="Redstone Lamp Off" Id="123" Color="865536"/>
+    <Block Name="Redstone Lamp On" Id="124" Color="d0a26b"/>
+    <Block Name="Oak Wood Slabs" Id="125" Color="a08250"/>
+    <Block Name="Pine Wood Slabs" Id="125:1" Color="765834"/>
+    <Block Name="Birch Wood Slabs" Id="125:2" Color="765834"/>
+    <Block Name="Jungle Wood Slabs" Id="125:3" Color="a97b58"/>
+    <Block Name="Oak Wood Slab" Id="126" Color="a08250"/>
+    <Block Name="Pine Wood Slab" Id="126:1" Color="765834"/>
+    <Block Name="Birch Wood Slab" Id="126:2" Color="765834"/>
+    <Block Name="Jungle Wood Slab" Id="126:3" Color="a97b58"/>
+    <Block Name="Cocoa" Id="127" Color="d0a06f20"/>
+    <Block Name="Sandstone Stairs" Id="128" Color="dad29f"/>
+    <Block Name="Emerald Ore" Id="129" Color="728376"/>
+    <Block Name="Ender Chest" Id="130" Color="2f3c43"/>
+    <Block Name="Tripwire Hook" Id="131" Color="9a8462"/>
+    <Block Name="Tripwire" Id="132" Color="20949595"/>
+    <Block Name="Emerald Block" Id="133" Color="4fcd73"/>
+    <Block Name="Dropper" Id="158" Color="676767"/>
+  </Blocks>
+</ColorPalette>
