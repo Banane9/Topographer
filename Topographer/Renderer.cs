@@ -80,7 +80,7 @@ namespace Topographer
             
             foreach (String path in paths)
             {
-                Match m = Regex.Match(path, @"r\.(-?\d+)\.(-?\d+)\.mc[ar]");
+                Match m = Regex.Match(path, @"r\.(-?\d+)\.(-?\d+)\.mca");
                 Coord c = new Coord(int.Parse(m.Groups[1].Value), int.Parse(m.Groups[2].Value));
                 c.RegiontoAbsolute();
                 if (c.X < topLeft.X)

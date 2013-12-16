@@ -66,10 +66,10 @@
     <Content Include="Config\ColorPalette.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\VanillaBiomes.txt">
+    <Content Include="Biomes.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\VanillaBlocks.txt">
+    <Content Include="Blocks.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

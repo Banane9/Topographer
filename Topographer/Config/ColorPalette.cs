@@ -3,12 +3,21 @@ using System.Collections.Generic;
 
 namespace Topographer.Config
 {
+    /// <summary>
+    /// Class to store the information about the <see cref="Color"/> Palette for the Blocks and Biomes.
+    /// </summary>
     [XmlRoot("ColorPalette")]
     public class ColorPalette
     {
+        /// <summary>
+        /// Gets or sets the <see cref="Dictionary"/> of Biomes with the <see cref="Biome"/> matched to the id.
+        /// </summary>
         [XmlIgnore()]
         public Dictionary<string, Biome> Biomes { get; set; }
 
+        /// <summary>
+        /// Gets or sets the <see cref="List"/> of <see cref="BiomeInfo"/>.
+        /// </summary>
         [XmlArray("Biomes")]
         [XmlArrayItem("Biome")]
         public List<BiomeInfo> BiomeList
@@ -32,9 +41,15 @@ namespace Topographer.Config
             }
         }
 
+        /// <summary>
+        /// Gets or sets the <see cref="Dictionary"/> of Blocks with the <see cref="Block"/> matched to the id:meta.
+        /// </summary>
         [XmlIgnore()]
         public Dictionary<string, Block> Blocks { get; set; }
 
+        /// <summary>
+        /// Gets or sets the <see cref="List"/> of <see cref="BlockInfo"/>.
+        /// </summary>
         [XmlArray("Blocks")]
         [XmlArrayItem("Block")]
         public List<BlockInfo> BlockList
